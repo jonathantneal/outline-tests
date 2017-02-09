@@ -1,19 +1,37 @@
 <!doctype html>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>An Example Page</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<body>
-	<h>An Example Page</h>
-	<p>This is an example page.</p>
-	<section>
-		<h>Sectioning</h>
-		<p>A section tag is used to define chapters, headers, footers, or any other sections of a document.</p>
-	</section>
-	<script src="//codepen.io/jonneal/pen/dbe5152771a12bd9bcc4b6b3d8e4d029.js"></script>
-	<script>
-	hfill.observe(document, 'h');
-	hfill.style(document, 'h', ['2em', '1.5em', '1.17em', '1em']);
-	</script>
-</body>
+<html lang="en">
+	<title>Heading Example: H</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<body>
+		<h>Heading Example: H</h>
+		<p>This page uses <code>&lt;h&gt;</code> elements for headings. It relies on sectioning (<code>&lt;section&gt;</code>) elements to give headings their contextual meaning. This is accomplished with the <a href="https://github.com/jonathantneal/hfill">hfill library</a>, which assigns <code>&lt;h&gt;</code> elements a <code>role</code> and <code>aria-level</code> based on their position within the document outline.</p>
+
+		<section>
+			<h>The First Section</h>
+			<p>This is a section. A section is used to delineate chapters, headers, footers, or any other sections of a document.</p>
+
+			<section>
+				<h>The Nested Section</h>
+				<p>This is a subsection of a section. We can go deeper.</p>
+			</section>
+
+				<section>
+					<h>The Deepest Section</h>
+					<p>This is the deepest section of the document.</p>
+				</section>
+		</section>
+
+		<section>
+			<h>The Last Section</h>
+			<p>This is the last section of the document.</p>
+		</section>
+
+		<script src="//codepen.io/jonneal/pen/dbe5152771a12bd9bcc4b6b3d8e4d029.js"></script>
+		<script>
+		hfill.observe(document, 'h');
+		hfill.style(document, 'h', ['2em', '1.5em', '1.17em', '1em']);
+		</script>
+	</body>
+</html>
