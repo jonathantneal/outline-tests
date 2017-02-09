@@ -15,7 +15,7 @@ The [hn.html] file uses `<h1>` through `<h6>` elements for headings. It relies o
 Learn more about [Outline Tests].
 
 [hfill library]: https://github.com/jonathantneal/hfill
-[h.html]: https://jonathantneal.github.io/outline-tests/tests/headings/h.html
-[h1.html]: https://jonathantneal.github.io/outline-tests/tests/headings/h1.html
-[hn.html]: https://jonathantneal.github.io/outline-tests/tests/headings/hn.html
+[h.html]: https://jonathantneal.github.io/outline-tests/tests/sections--tequila/h.html
+[h1.html]: https://jonathantneal.github.io/outline-tests/tests/sections--tequila/h1.html
+[hn.html]: https://jonathantneal.github.io/outline-tests/tests/sections--tequila/hn.html
 [Outline Tests]: https://github.com/jonathantneal/outline-tests
